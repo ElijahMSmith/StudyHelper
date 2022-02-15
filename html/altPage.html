@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+    <head>
+        <style>
+            body {
+                background-color: green;
+            }
+
+            h1 {
+                color: blue;
+                text-align: center;
+                font-size: 5em;
+            }
+
+            p {
+                text-align: center;
+                font-size: 2em;
+            }
+
+            img {
+                width: 350px;
+                height: 300px;
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+            }
+
+            .spaced {
+                margin-top: 100px;
+            }
+
+            #minutesInput {
+                width: 50px;
+            }
+
+            button {
+                display: block;
+                margin: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 class="spaced">
+            You're In Study Mode!
+        </h1>
+        <p class="spaced">
+            You've marked this site as blockable while in study mode.<br/>
+            Turn off study mode first to access this site.
+        </p>
+        <div class="spaced" id="snoozeContainer">
+            <p id="snoozeLabel">Snooze for <input id="minutesInput" type="number" value="0"/> Minutes</p>
+            <button id="snooze">Snooze!</button>
+        </div>
+        <img class="spaced" src="/assets/yougotthis.gif"/>
+    </body>
+    <script src="../src/altPage.js"></script>
+</html>
