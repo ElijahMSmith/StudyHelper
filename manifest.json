@@ -3,8 +3,10 @@
     "version": "1.0.0",
     "description": "Prevent navigation to specific sites while in study mode!",
     "manifest_version": 3,
+
     "permissions": ["webNavigation", "storage"],
     "host_permissions": ["*://*/*"],
+
     "background": {
         "service_worker": "/src/background.js"
     },
